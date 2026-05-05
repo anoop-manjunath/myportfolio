@@ -344,7 +344,6 @@ b{
 }
 
 .SpotlightTilt{
-  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -412,6 +411,9 @@ b{
   }
   .AboutTextHeading{
     font-size: 26px;
+  }
+  .SpotlightTilt{
+    width: 100%;
   }
   .SpotlightCard{
     max-width: min(420px, calc(100vw - 48px));
