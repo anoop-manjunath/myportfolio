@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import {AiOutlineHome} from "react-icons/ai";
 import {BsBriefcase, BsPerson} from "react-icons/bs";
 import {CgFileDocument} from "react-icons/cg";
-import profile from "../data/profile";
 
 
 const Nav = () => {
@@ -43,7 +42,13 @@ const Nav = () => {
   return (
     <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
  
-        <h1 title='Reload' onClick={()=>window.location.reload()} className='Logo'>{profile.initials}</h1>
+        <img
+          title='Reload'
+          onClick={()=>window.location.reload()}
+          className='Logo'
+          src='/images/logo.png'
+          alt='Anoop DM logo'
+        />
 
         <div className='Hamburger' onClick={showMenu}>
             <span className='bar'></span>
