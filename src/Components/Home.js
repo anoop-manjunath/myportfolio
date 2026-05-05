@@ -30,7 +30,7 @@ const Home = () => {
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>{profile.home.summary}</p>
         </div>
-        <Tilt>
+        <Tilt className='SpotlightTilt'>
           <div className='SpotlightCard'>
             <p className='SpotlightEyebrow'>{profile.role}</p>
             {profile.home.focus.map((item) => (
