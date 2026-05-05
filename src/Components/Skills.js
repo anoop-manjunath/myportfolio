@@ -1,29 +1,45 @@
 import React from 'react'; 
-import { CgCPlusPlus } from "react-icons/cg";
-import {FaReact, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
-import {DiNodejs, DiJavascript1} from "react-icons/di";
-import {SiExpress, SiMongodb, SiPostman, SiVercel} from "react-icons/si";
+import { FaAws, FaDocker, FaPhp, FaReact, FaVuejs } from "react-icons/fa";
+import {
+  SiAmazondynamodb,
+  SiApachekafka,
+  SiDjango,
+  SiFastapi,
+  SiLaravel,
+  SiMongodb,
+  SiMysql,
+  SiNodedotjs,
+  SiRabbitmq,
+  SiSymfony,
+} from "react-icons/si";
+import { TbApi, TbCloudComputing, TbTestPipe } from "react-icons/tb";
 
 const Skills = ({skill}) => {
     const icon = {
-        'C++': <CgCPlusPlus/>,
-        Postman: <SiPostman/>,
+        "PHP": <FaPhp/>,
+        "Node.js": <SiNodedotjs/>,
+        Laravel: <SiLaravel/>,
+        Symfony: <SiSymfony/>,
+        FastAPI: <SiFastapi/>,
+        Django: <SiDjango/>,
+        MySQL: <SiMysql/>,
+        MongoDB: <SiMongodb/>,
+        DynamoDB: <SiAmazondynamodb/>,
+        AWS: <FaAws/>,
+        Docker: <FaDocker/>,
+        Kafka: <SiApachekafka/>,
+        RabbitMQ: <SiRabbitmq/>,
+        "Vue.js": <FaVuejs/>,
         React: <FaReact/>,
-        Javascript: <DiJavascript1/>,
-        Node : <DiNodejs/>,
-        Express : <SiExpress/>,
-        MongoDb : <SiMongodb/>,
-        Git : <FaGitAlt/>,
-        Github : <FaGithub/>,
-        Npm : <FaNpm/>,
-        Figma : <FaFigma/>,
-        Bootstrap: <FaBootstrap/>,
-        Vercel : <SiVercel/>
+        "REST APIs": <TbApi/>,
+        "System Design": <TbCloudComputing/>,
+        TDD: <TbTestPipe/>,
     }
     
   return (
     <div title={skill} className='SkillBox'>
-      {icon[skill]}
+      <span className='SkillIcon'>{icon[skill]}</span>
+      <span className='SkillLabel'>{skill}</span>
     </div>
   )
 }

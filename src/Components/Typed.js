@@ -1,12 +1,13 @@
 import React from 'react';
 import Typewriter from  'typewriter-effect';
+import profile from "../data/profile";
 
 const Typed = () => {
   return (
     <div className="TypeEffect">
       <Typewriter
         options={{
-          strings: ['Software Developer', 'MERN Stack Developer'],
+          strings: profile.titles,
           autoStart: true,
           loop: true,
           delay: 70,
