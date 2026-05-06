@@ -43,13 +43,13 @@ const About = () => {
             </div>
           </div>
 
-          <div className='AboutSection'>
+          {/* <div className='AboutSection'>
             <h2 className='AboutSectionTitle'>Writing</h2>
             <p>
               I also share longer-form notes and engineering perspectives on{" "}
               <a href={profile.social.medium} target="_blank" rel="noopener noreferrer">Medium</a>.
             </p>
-          </div>
+          </div> */}
         </div>
 
         <div>

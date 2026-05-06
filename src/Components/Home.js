@@ -11,9 +11,12 @@ const Home = () => {
       <div className='HomePage'>
 
         <div className='HomeText'>
-          <h1>Hi There!</h1>
+          <p className='HeroGreeting'>Hi There!</p>
           <h1>I&apos;M <b>{profile.name.toUpperCase()}</b></h1>
           <Typed/>
+          {/* <p className='HeroHandle'>
+            Find me online as <b>{profile.handle}</b>.
+          </p> */}
           <p className='HeroIntro'>{profile.home.intro}</p>
         </div>
 

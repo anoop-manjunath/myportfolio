@@ -1,14 +1,15 @@
 const profile = {
   name: "Anoop DM",
+  handle: "anoopdm",
   initials: "ADM",
   role: "Backend Engineer | Technical Architect",
   location: "Bengaluru",
   email: "anoopdm11@gmail.com",
   website: "https://www.anoopdm.com",
   seo: {
-    title: "Anoop DM | Backend Engineer | Technical Architect",
+    title: "Anoop DM (anoopdm) | Backend Engineer | Technical Architect",
     description:
-      "Backend-focused engineer specializing in scalable systems, APIs, and cloud architecture, with experience in PHP, Node.js, and modern DevOps practices.",
+      "Anoop DM, known online as anoopdm, is a backend-focused engineer specializing in scalable systems, APIs, cloud architecture, PHP, Node.js, and modern DevOps practices.",
   },
   titles: [
     "Backend Specialist",

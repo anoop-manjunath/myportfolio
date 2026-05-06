@@ -1,0 +1,16 @@
+{
+  "name": "Anoop DM",
+  "short_name": "Anoop DM",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#031926",
+  "theme_color": "#031926",
+  "description": "Anoop DM, known online as anoopdm, is a backend-focused engineer specializing in scalable systems, APIs, cloud architecture, PHP, Node.js, and modern DevOps practices.",
+  "icons": [
+    {
+      "src": "/images/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

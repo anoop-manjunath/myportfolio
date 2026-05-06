@@ -221,11 +221,25 @@ b{
   padding-top: 10px;
 }
 
+.HeroGreeting{
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: 0.7px;
+}
+
 .TypeEffect{
   padding: 25px 0px;
   font-weight: 600;
   font-size: 32px;
   letter-spacing: 0.6px;
+}
+
+.HeroHandle{
+  margin-top: -4px;
+  margin-bottom: 12px;
+  color: #d3d8df;
+  font-size: 17px;
+  letter-spacing: 0.4px;
 }
 
 .HeroIntro{
@@ -267,10 +281,17 @@ b{
   .HomeText h1{
     font-weight: 500;
     font-size: 28px;
-  }  
+  }
+  .HeroGreeting{
+    font-weight: 500;
+    font-size: 28px;
+  }
   .TypeEffect{
     font-weight: 500;
     font-size: 24px;
+  }
+  .HeroHandle{
+    font-size: 15px;
   }
   .HeroIntro{
     font-size: 18px;
